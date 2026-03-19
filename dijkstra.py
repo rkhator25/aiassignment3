@@ -1,6 +1,5 @@
 import heapq
 
-# Graph of cities (example — you can expand this)
 graph = {
     "Delhi": {"Jaipur": 280, "Lucknow": 550, "Chandigarh": 250},
     "Jaipur": {"Delhi": 280, "Udaipur": 400, "Ahmedabad": 670},
@@ -32,7 +31,6 @@ def dijkstra(graph, start):
     
     return distances
 
-# Run
 start_city = "Delhi"
 result = dijkstra(graph, start_city)
 
